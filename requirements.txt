@@ -1,0 +1,6 @@
+Admin
+- Add Car Wash Invoice
+- Delete Car Wash Invoice
+- Update Car Wash Invoice
+User
+- View Car Wash Invoice
