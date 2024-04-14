@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|c:\\users\\wali\\documents\\projects\\carwashmanagementsystem\\code\\employermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|solutionrelative:employermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|c:\\users\\wali\\documents\\projects\\carwashmanagementsystem\\code\\employermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|solutionrelative:employermodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|c:\\users\\wali\\documents\\projects\\carwashmanagementsystem\\code\\employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|solutionrelative:employer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|c:\\users\\wali\\documents\\projects\\carwashmanagementsystem\\code\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|c:\\users\\wali\\documents\\projects\\carwashmanagementsystem\\code\\employer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\employer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09E25CFB-1A88-4E99-A60F-1168EFDED2DF}|code.csproj|solutionrelative:employer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,8 +37,41 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "EmployerModule.cs",
+              "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\EmployerModule.cs",
+              "RelativeDocumentMoniker": "EmployerModule.cs",
+              "ToolTip": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\EmployerModule.cs",
+              "RelativeToolTip": "EmployerModule.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAnwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T10:16:19.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployerModule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\EmployerModule.cs",
+              "RelativeDocumentMoniker": "EmployerModule.cs",
+              "ToolTip": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\EmployerModule.cs [Design]",
+              "RelativeToolTip": "EmployerModule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T10:05:12.048Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Employer.Designer.cs",
               "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\Employer.Designer.cs",
               "RelativeDocumentMoniker": "Employer.Designer.cs",
@@ -42,16 +83,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Employer.cs [Design]",
               "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\Employer.cs",
               "RelativeDocumentMoniker": "Employer.cs",
@@ -63,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -71,20 +104,18 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAtwFQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T04:48:48.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-07T04:48:48.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\wali\\Documents\\Projects\\CarWashManagementSystem\\code\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T06:00:11.555Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-02-25T06:00:11.555Z"
             }
           ]
         }
