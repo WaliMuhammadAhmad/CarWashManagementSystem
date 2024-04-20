@@ -260,9 +260,9 @@ namespace CarWashManagementSystem
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(205)))), ((int)(((byte)(239)))));
             this.label1.Location = new System.Drawing.Point(72, 55);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 31);
+            this.label1.Size = new System.Drawing.Size(180, 39);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Mdemy";
+            this.label1.Text = "Car Wash";
             // 
             // pictureBox1
             // 
@@ -315,7 +315,7 @@ namespace CarWashManagementSystem
             this.label9.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label9.Location = new System.Drawing.Point(39, 78);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 20);
+            this.label9.Size = new System.Drawing.Size(158, 22);
             this.label9.TabIndex = 2;
             this.label9.Text = "Since last 7 days";
             // 
@@ -326,7 +326,7 @@ namespace CarWashManagementSystem
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label10.Location = new System.Drawing.Point(4, 4);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(168, 18);
+            this.label10.Size = new System.Drawing.Size(207, 23);
             this.label10.TabIndex = 2;
             this.label10.Text = "COST OF GOOD SOLD";
             // 
@@ -380,7 +380,7 @@ namespace CarWashManagementSystem
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label6.Location = new System.Drawing.Point(39, 78);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 20);
+            this.label6.Size = new System.Drawing.Size(158, 22);
             this.label6.TabIndex = 2;
             this.label6.Text = "Since last 7 days";
             // 
@@ -391,7 +391,7 @@ namespace CarWashManagementSystem
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label7.Location = new System.Drawing.Point(4, 4);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 18);
+            this.label7.Size = new System.Drawing.Size(138, 23);
             this.label7.TabIndex = 2;
             this.label7.Text = "GROSS PROFIT";
             // 
@@ -445,7 +445,7 @@ namespace CarWashManagementSystem
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Location = new System.Drawing.Point(39, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 20);
+            this.label3.Size = new System.Drawing.Size(158, 22);
             this.label3.TabIndex = 2;
             this.label3.Text = "Since last 7 days";
             // 
@@ -456,7 +456,7 @@ namespace CarWashManagementSystem
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label2.Location = new System.Drawing.Point(4, 4);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 18);
+            this.label2.Size = new System.Drawing.Size(91, 23);
             this.label2.TabIndex = 2;
             this.label2.Text = "REVENUS";
             // 
