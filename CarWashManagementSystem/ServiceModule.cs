@@ -51,6 +51,19 @@ namespace CarWashManagementSystem
                     MessageBox.Show("Required data field!", "Warning");
                     return; // return to the data field and form
                 }
+
+                if (!int.TryParse(txtPrice.Text, out int price))
+                {
+                    MessageBox.Show("Price must be an integer!", "Warning");
+                    return; // return to the data field and form
+                }
+
+                if (int.TryParse(txtName.Text, out int name))
+                {
+                    MessageBox.Show("Name must be a valid string!", "Warning");
+                    return; // return to the data field and form
+                }
+
                 if (MessageBox.Show("Are you sure you want to register this service?", "Service Registration", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cm = new SqlCommand("INSERT INTO tbService(name,price)VALUES(@name,@price)", dbcon.connect());
@@ -75,11 +88,30 @@ namespace CarWashManagementSystem
         {
             try
             {
-                if (txtName.Text == "" || txtPrice.Text == "")
+                if (string.IsNullOrEmpty(txtName.Text) || string.IsNullOrEmpty(txtPrice.Text))
                 {
                     MessageBox.Show("Required data field!", "Warning");
                     return; // return to the data field and form
                 }
+
+                if (!int.TryParse(txtPrice.Text, out int price))
+                {
+                    MessageBox.Show("Price must be an integer!", "Warning");
+                    return; // return to the data field and form
+                }
+
+                if (!IsValidString(txtName.Text))
+                {
+                    MessageBox.Show("Name must be a valid string!", "Warning");
+                    return; // return to the data field and form
+                }
+
+                // Function to check if a string is valid
+                bool IsValidString(string str)
+                {
+                    return !string.IsNullOrWhiteSpace(str);
+                }
+
                 if (MessageBox.Show("Are you sure you want to edit this service?", "Service Editing", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cm = new SqlCommand("UPDATE tbService SET name=@name, price=@price WHERE id=@id", dbcon.connect());

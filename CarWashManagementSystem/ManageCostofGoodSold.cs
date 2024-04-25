@@ -118,6 +118,18 @@ namespace CarWashManagementSystem
                 MessageBox.Show("Required data field!", "Warning");
                 return; // return to the data field and form
             }
+
+            if (!IsValidString(txtCostName.Text))
+            {
+                MessageBox.Show("Name must be a valid string!", "Warning");
+                return; // return to the data field and form
+            }
+
+            // Function to check if a string is valid
+            bool IsValidString(string str)
+            {
+                return !string.IsNullOrWhiteSpace(str);
+            }
             check = true;
         }
 

@@ -32,12 +32,21 @@ namespace CarWashManagementSystem
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
-            {    if(txtName.Text=="")
+            {   if(txtName.Text=="")
                 {
                     MessageBox.Show("Required vehicle type name!", "Warning");
                     return; // return to the data field and form
                 }
-                 if (MessageBox.Show("Are you sure you want to register this vehicle type?", "Vehicle Type Registration", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+
+
+                if (int.TryParse(txtName.Text, out int name))
+                {
+                    MessageBox.Show("Name must be a valid string!", "Warning");
+                    return; // return to the data field and form
+                }
+
+
+                if (MessageBox.Show("Are you sure you want to register this vehicle type?", "Vehicle Type Registration", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                  {
                     cm = new SqlCommand("INSERT INTO tbVehicleType(name,class)VALUES(@name,@class)", dbcon.connect());
                     cm.Parameters.AddWithValue("@name", txtName.Text);

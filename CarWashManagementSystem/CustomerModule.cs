@@ -155,7 +155,25 @@ namespace CarWashManagementSystem
                 MessageBox.Show("Required data Field!", "Warning");
                 return; // return to the data field and form
             }
-            
+            if (!int.TryParse(txtPhone.Text, out int price))
+            {
+                MessageBox.Show("Phone No must be an integer!", "Warning");
+                return; // return to the data field and form
+            }
+
+            if (int.TryParse(txtName.Text, out int name))
+            {
+                MessageBox.Show("Name must be a valid string!", "Warning");
+                return; // return to the data field and form
+            }
+
+            if (int.TryParse(txtName.Text, out int address))
+            {
+                MessageBox.Show("Address must be a valid string!", "Warning");
+                return; // return to the data field and form
+            }
+
+
             check = true;
         }
         #endregion method

@@ -167,7 +167,27 @@ namespace CarWashManagementSystem
                 return; // return to the data field and form
             }
 
-            if(checkAge(dtDob.Value)<18)
+            if (!int.TryParse(txtPhone.Text, out int price))
+            {
+                MessageBox.Show("Price must be an integer!", "Warning");
+                return; // return to the data field and form
+            }
+
+            if (int.TryParse(txtName.Text, out int name))
+            {
+                MessageBox.Show("Name must be a valid string!", "Warning");
+                return; // return to the data field and form
+            }
+
+            if (int.TryParse(txtAddress.Text, out int address))
+            {
+                MessageBox.Show("Address must be a valid string!", "Warning");
+                return; // return to the data field and form
+            }
+
+
+
+            if (checkAge(dtDob.Value)<18)
             {
                 MessageBox.Show("Employer is under 18!", "Warning");
                 return;
